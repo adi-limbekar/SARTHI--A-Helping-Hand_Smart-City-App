@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityLogin"
+    android:orientation="vertical"
+    android:background="@drawable/bgone"
+    >
+   <ImageView
+       android:layout_width="125dp"
+       android:layout_height="125dp"
+       android:src="@mipmap/ic_launcher_round"
+       android:layout_gravity="center"
+       android:layout_marginTop="50dp"
+
+       />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_vertical">
+
+        <View
+            android:id="@+id/divider0"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tvUser"
+            android:layout_marginRight="16dp"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/text"
+            android:text="User"/>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toLeftOf="@id/tvUser"
+            android:layout_centerInParent="true"
+            android:background="#ffffff" />
+
+
+    </RelativeLayout>
+
+    <Button android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="5dp"
+        android:text="User Sign In"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/btnSignIn"
+        />
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="210dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in_button"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        >
+
+    </com.google.android.gms.common.SignInButton>
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:text="Not yet Registered ? Sign Up"
+        android:textColor="@color/colorPrimary1"
+        android:textSize="20dp" />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical">
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/tvUser1"
+        android:layout_marginLeft="16dp"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvUser1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/text"
+        android:text="Admin"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@id/tvUser1"
+        android:layout_centerInParent="true"
+        android:background="#ffffff" />
+
+
+</RelativeLayout>
+
+    <Button android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="Admin Sign In"
+        android:background="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:id="@+id/btnAdSignIn"
+        />
+
+</LinearLayout>

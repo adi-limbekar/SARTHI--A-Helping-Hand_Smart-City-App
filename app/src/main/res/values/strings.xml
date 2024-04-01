@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SARTHI</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Logout</string>
+    <string name="map_text">Map</string>
+    <string name="google_maps_key">AIzaSyCetUBMlE2Pm0_Tub0u7aQG84mhoYvG1us</string>
+    <string name="water_username">AdminWaterDepartment</string>
+    <string name="water_password">Maps@1234</string>
+    <string name="garbage_username">AdminGarbageDepartment</string>
+    <string name="garbage_password">Spam@4321</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

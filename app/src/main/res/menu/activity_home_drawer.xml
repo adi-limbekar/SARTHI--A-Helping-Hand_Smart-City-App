@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_BusTracking"
+            android:icon="@drawable/bus"
+            android:title="Bus Tracking" />
+        <item
+            android:id="@+id/nav_garbageReports"
+            android:icon="@drawable/garbage_reports"
+            android:title="Garbage Disposal Reports" />
+        <item
+            android:id="@+id/nav_nearbyPlaces"
+            android:icon="@drawable/locate_places"
+            android:title="Locate Nearby Places" />
+        <item
+            android:id="@+id/nav_waterDept"
+            android:icon="@drawable/water_department"
+            android:title="Water Department" />
+        <item
+            android:id="@+id/nav_ElectricityDept"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Online Payments" />
+        <item
+            android:id="@+id/nav_EmergencyNo"
+            android:icon="@drawable/emergency_no"
+            android:title="Emergency numbers" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Support"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Support" />
+            <item
+                android:id="@+id/nav_AboutUs"
+                android:icon="@drawable/about_us"
+                android:title=" About us" />
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/logout"
+                android:title=" Logout" />
+        </menu>
+    </item>
+
+</menu>

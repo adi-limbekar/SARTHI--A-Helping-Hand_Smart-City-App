@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin_login_bg"
+    android:orientation="vertical"
+    tools:context=".ActivityAdminLogin">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="160dp"
+       android:layout_marginBottom="70dp"
+       android:src="@drawable/admin_login"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        >
+
+        <EditText
+            android:id="@+id/etRegAdUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:foregroundTint="@color/colorAccent"
+            android:textColor="@color/text"
+            android:hint="Enter registered Username"
+            android:textSize="20dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorPrimary"
+        >
+        <EditText android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="textPassword"
+            android:layout_marginBottom="30dp"
+            android:foregroundTint="@color/colorAccent"
+            android:textColor="@color/text"
+            android:id="@+id/etRegAdPassword"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="Login In"
+        android:textSize="30dp"
+        android:background="#FC3C3C"
+        android:id="@+id/btnAdLogin"
+        />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</LinearLayout>
