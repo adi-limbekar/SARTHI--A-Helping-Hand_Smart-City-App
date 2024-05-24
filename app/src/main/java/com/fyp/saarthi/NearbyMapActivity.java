@@ -294,7 +294,7 @@ public class NearbyMapActivity extends AppCompatActivity implements OnMapReadyCa
         googlePlaceUrl.append("&radius="+PROXIMITY_RADIUS);
         googlePlaceUrl.append("&type="+nearbyPlace);
         googlePlaceUrl.append("&sensor=true");
-        googlePlaceUrl.append("&key="+"AIzaSyAiy-O6rc_jb3b-WF-RS_XTUzAU1rIbHl4");
+        googlePlaceUrl.append("&key="+"Enter your Google APPI key");
 
         Log.d("MapsActivity", "url = "+googlePlaceUrl.toString());
 
